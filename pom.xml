@@ -10,5 +10,5 @@
         <maven.compiler.release>24</maven.compiler.release>
         <exec.mainClass>com.mycompany.co2trackerbiodiversity.CO2TrackerBiodiversity</exec.mainClass>
     </properties>
-    <name>CO2TrackerBiodiversity</name>
+    <name>TrackerCO2Biodiversity</name>
 </project>
