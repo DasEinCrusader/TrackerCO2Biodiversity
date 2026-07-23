@@ -4,6 +4,8 @@
 
 package com.mycompany.co2trackerbiodiversity;
 
+import javax.swing.SwingUtilities;
+
 /**
  *
  * @author 35385
@@ -11,6 +13,17 @@ package com.mycompany.co2trackerbiodiversity;
 public class CO2TrackerBiodiversity {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        System.out.println("Transport Calculator");
+        System.out.println("___________________________________");
+        
+        SwingUtilities.invokeLater(() ->{
+            new GUI().setVisible(true);
+        });
+        testConsole();
+    }
+    
+    private static void testConsole(){
+        System.out.println("\n Console Test:");
+        System.out.println("___________________________________");
     }
 }
